@@ -209,6 +209,10 @@ footer {
     white-space: nowrap;
 }
 
+.authors-section strong {
+    color: var(--acento-verde);
+}
+
 .authors-list a { color: var(--secundario-naranja); text-decoration: none; font-weight: bold; }
 .authors-list a:hover { text-decoration: underline; }
 
@@ -218,6 +222,45 @@ footer {
     padding-top: 15px;
     font-size: 0.85rem;
     opacity: 0.8;
+}
+
+/* --- FOOTER: SECCIÓN ASESOR --- */
+.advisor-section {
+    margin-top: 15px;
+    padding-top: 15px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    text-align: center;
+}
+
+.advisor-section p {
+    font-size: 0.95rem;
+    color: var(--blanco);
+}
+
+.advisor-section strong {
+    color: var(--acento-verde);
+    margin-right: 5px;
+}
+
+.advisor-section a {
+    color: var(--secundario-naranja);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.advisor-section a:hover {
+    text-decoration: underline;
+}
+
+/* --- CORRECCIÓN COLUMNAS (Captura de pantalla) --- */
+.description-text {
+    column-count: 1 !important; /* Evita que el texto se divida como en la imagen */
+    display: block;
+}
+
+.description-text p {
+    margin-bottom: 20px;
+    text-align: justify;
 }
 
 /* --- RESPONSIVE --- */
